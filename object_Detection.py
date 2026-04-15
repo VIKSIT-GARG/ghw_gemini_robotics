@@ -17,7 +17,7 @@ my_image = client.files.upload(file=image_path)
 
 # Step 3: Add a prompt
 prompt = """
-Locate the HDMI cable from the image and give me the bounding box coordinates in JSON format labels should be
+Locate the lego flower from the image and give me the bounding box coordinates in JSON format labels should be
 bounding_box: in the format [ymin, xmin, ymax, xmax] and label: with the object name
 Do not use any markdown, just the raw JSON
 
